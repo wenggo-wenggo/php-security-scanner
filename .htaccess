@@ -1,0 +1,14 @@
+# Mencegah akses langsung ke file tertentu
+<FilesMatch "\.(txt|md|log)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Mencegah directory listing
+Options -Indexes
+
+# Proteksi XSS
+<IfModule mod_headers.c>
+    Header set X-XSS-Protection "1; mode=block"
+    Header set X-Content-Type-Options "nosniff"
+</IfModule>
