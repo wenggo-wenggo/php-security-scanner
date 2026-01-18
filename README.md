@@ -336,5 +336,4 @@ Kontribusi dipersilakan! Ikuti langkah:
 
 *Terakhir diperbarui: Januari 2024*  
 *Versi: 2.0*  
-*Developer: Security Team*  
-*Website: https://yourdomain.com*
+*Developer: Security Team*
